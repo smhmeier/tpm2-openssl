@@ -103,6 +103,7 @@ TESTS_SHELL = test/list.sh \
               test/rsa_createak_sign_handle.sh \
               test/rsa_create_decrypt_pkcs1.sh \
               test/rsa_create_decrypt_oaep.sh \
+              test/rsa_export_import_private_key.sh \
               test/rsa_genpkey_x509_cert.sh \
               test/rsa_genpkey_x509_cmp.sh \
               test/rsa_genpkey_x509_cms.sh \
@@ -111,8 +112,10 @@ TESTS_SHELL = test/list.sh \
               test/rsa_createak_x509_csr.sh \
               test/rsapss_genpkey_sign_rawin.sh \
               test/rsapss_createak_tls_server.sh \
+              test/rsapss_export_import_private_key.sh \
               test/rsa_pki/rsa_pki.sh \
               test/ec_genpkey_check.sh \
+              test/ec_export_import_private_key.sh \
               test/ec_genpkey_parameters.sh \
               test/ec_genpkey_x509_cms.sh \
               test/ecdsa_genpkey_sign_auth.sh \
